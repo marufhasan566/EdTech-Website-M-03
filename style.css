@@ -4,7 +4,7 @@ body {
 
 @keyframes beeping {
     0% {
-        color: orange;
+        color: blue;
     }
 
     100% {
@@ -55,4 +55,12 @@ body {
 .animation {
     animation: beeping 0.5s ease-in-out 1s infinite alternate;
     animation-play-state: running;
+}
+
+.btn-link {
+    text-decoration: none;
+}
+
+footer .fa-brands {
+    color: aqua;
 }
