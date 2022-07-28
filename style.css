@@ -2,6 +2,16 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+@media screen and (max-width:991px) {
+    section .partners {
+        display: none;
+    }
+
+    .intro-body span {
+        display: none;
+    }
+}
+
 @keyframes beeping {
     0% {
         color: blue;
@@ -59,6 +69,10 @@ body {
 
 .btn-link {
     text-decoration: none;
+}
+
+footer h1 {
+    font-family: 'Bebas Neue', cursive;
 }
 
 footer .fa-brands {
